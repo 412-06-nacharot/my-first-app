@@ -82,7 +82,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6):  # ✏️ [จุด
     else:
         st.error(f"❌ ข้อ 5: ยังไม่ถูกต้อง (คุณตอบ '{u_ans5}')")
         
-    if u_ans5 == "x=11":
+    if u_ans6 == "x=11":
         st.success("✅ ข้อ 6: ถูกต้อง")
         score += 5
     else:
@@ -139,7 +139,7 @@ ans2 = st.text_input(
 
 # ✏️ [จุดที่ 4] เพิ่มช่องรับคำตอบข้อ 3 และ 4
 ans3 = st.text_input(
-    "ข้อ 3: 2(x+4)=14 😈",
+    "ข้อ 3: 2(x+3)=14 😈",
     value=st.session_state.ans3_val,
     key="ans3_val",
 )

@@ -157,7 +157,7 @@ ans6 = st.text_input(
     "ข้อ 6: 5x-33=22 👽",
     value=st.session_state.ans6_val,
     key="ans6_val",
-
+)
 
 if "start" in st.session_state and not st.session_state.get("is_ended", False):
     if st.button("ส่งคำตอบ"):

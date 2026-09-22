@@ -94,7 +94,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6):  # ✏️ [จุด
     # ปรับเงื่อนไขชนะเป็น 30 คะแนน
     if 21 <= score <= 30:
         st.success("🎉 sukoi!!!")
-    elif 11 <= score <= 20
+    elif 11 <= score <= 20:
         st.warning("👌🏿👌🏿okkkkkk")
     else:
         st.error("💀 noob 💩💩 ")
